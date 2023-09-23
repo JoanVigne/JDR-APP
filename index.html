@@ -3,20 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
+    <link rel="stylesheet" href="./css/characters.css" />
+    <link rel="stylesheet" href="./css/dice.css " />
+
+    <!-- google icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <h1 class="">The adventure</h1>
-      <h2 class="location">Start of the adventure</h2>
+      <h1 class="">Role Play Support</h1>
+      <h2 class="location">Profile, statistics and dice.</h2>
+      <button id="startButton">start ?</button>
     </header>
+    <div class="listeDesPersonnage">
+      <ul></ul>
+    </div>
     <main>
-      <button id="fetchDataButton">Obtenir des données du serveur</button>
+      <section class="ContainerPlayerProfile"></section>
+      <section class="containerNewStats"></section>
     </main>
+    <footer>
+      <div class="dice-container">
+        <img />
+        <p></p>
+        <button>
+          <span class="material-symbols-outlined"> settings </span>
+        </button>
+      </div>
+    </footer>
   </body>
   <script src="./js/main.js"></script>
+  <script src="./js/characters.js"></script>
+  <script src="./js/stats.js"></script>
+  <script src="./js/dice.js"></script>
 </html>

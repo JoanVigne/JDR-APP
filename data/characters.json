@@ -1,0 +1,378 @@
+{
+    "characters": [
+      {
+        "nationality": "French",
+        "class": "Templar",
+        "description": "Dedicated knights who defend the faith and wield swords with honor.",
+        "hp": 25,
+        "force": 20,
+        "agility": 10,
+        "intel": 10,
+        "charisma": 15,
+        "feeling": 20
+      },
+      {
+        "nationality": "Japanese",
+        "class": "Samurai",
+        "description": "Feudal warriors known for their discipline and mastery of the katana.",
+        "hp": 20,
+        "force": 25,
+        "agility": 20,
+        "intel": 15,
+        "charisma": 10,
+        "feeling": 10
+      },
+      {
+        "nationality": "Norse",
+        "class": "Húskarl",
+        "description": "Viking bodyguards and elite warriors who excel in close combat.",
+        "hp": 30,
+        "force": 30,
+        "agility": 10,
+        "intel": 10,
+        "charisma": 10,
+        "feeling": 10
+      },
+      {
+        "nationality": "Roman",
+        "class": "Legionnaire",
+        "description": "Disciplined soldiers of the Roman Empire, known for their formations and tactics.",
+        "hp": 30,
+        "force": 25,
+        "agility": 10,
+        "intel": 15,
+        "charisma": 15,
+        "feeling": 10
+      },
+      {
+        "nationality": "Greek",
+        "class": "Spartan",
+        "description": "Warriors from the city-state of Sparta, famous for their courage and discipline.",
+        "hp": 25,
+        "force": 30,
+        "agility": 15,
+        "intel": 10,
+        "charisma": 10,
+        "feeling": 10
+      },
+      {
+        "nationality": "Japanese",
+        "class": "Ninja",
+        "description": "Stealthy and skilled assassins trained in espionage and sabotage.",
+        "hp": 15,
+        "force": 10,
+        "agility": 30,
+        "intel": 25,
+        "charisma": 15,
+        "feeling": 10
+      },
+      {
+        "nationality": "English",
+        "class": "Archer",
+        "description": "Masters of the longbow, skilled in ranged combat and precision shooting.",
+        "hp": 15,
+        "force": 10,
+        "agility": 30,
+        "intel": 20,
+        "charisma": 15,
+        "feeling": 10
+      },
+      {
+        "nationality": "English",
+        "class": "Crossbowman",
+        "description": "Crossbow experts known for their deadly accuracy and firepower.",
+        "hp": 20,
+        "force": 15,
+        "agility": 20,
+        "intel": 15,
+        "charisma": 10,
+        "feeling": 20
+      },
+      {
+        "nationality": "French",
+        "class": "Fire-Mage",
+        "description": "Sorcerers who harness the power of fire to cast destructive spells.",
+        "hp": 15,
+        "force": 10,
+        "agility": 15,
+        "intel": 30,
+        "charisma": 10,
+        "feeling": 20
+      },
+      {
+        "nationality": "English",
+        "class": "Healer",
+        "description": "Skilled practitioners of the healing arts, capable of mending wounds and curing ailments.",
+        "hp": 20,
+        "force": 5,
+        "agility": 10,
+        "intel": 25,
+        "charisma": 20,
+        "feeling": 20
+      },
+      {
+        "nationality": "Celtic",
+        "class": "Druid",
+        "description": "Mystical nature priests who commune with the spirits and wield elemental powers.",
+        "hp": 20,
+        "force": 10,
+        "agility": 15,
+        "intel": 25,
+        "charisma": 25,
+        "feeling": 5
+      },
+      {
+        "nationality": "Greek",
+        "class": "Elementalist",
+        "description": "Sorcerers who manipulate the elements to cast spells and control nature.",
+        "hp": 15,
+        "force": 10,
+        "agility": 15,
+        "intel": 25,
+        "charisma": 15,
+        "feeling": 15
+      },
+      {
+        "nationality": "Spanish",
+        "class": "Conquistador",
+        "description": "Bold explorers and conquerors who sought riches in the New World.",
+        "hp": 25,
+        "force": 20,
+        "agility": 10,
+        "intel": 15,
+        "charisma": 15,
+        "feeling": 15
+      },
+      {
+        "nationality": "Mongol",
+        "class": "Khan",
+        "description": "Fearless leaders of the Mongol hordes, known for their equestrian skills.",
+        "hp": 20,
+        "force": 25,
+        "agility": 20,
+        "intel": 15,
+        "charisma": 10,
+        "feeling": 10
+      },
+      {
+        "nationality": "Egyptian",
+        "class": "Pharaoh",
+        "description": "Divine rulers of ancient Egypt, revered as gods on Earth.",
+        "hp": 30,
+        "force": 15,
+        "agility": 10,
+        "intel": 25,
+        "charisma": 20,
+        "feeling": 10
+      },
+      {
+        "nationality": "Viking",
+        "class": "Berserker",
+        "description": "Frenzied warriors who fight with uncontrollable rage on the battlefield.",
+        "hp": 35,
+        "force": 35,
+        "agility": 5,
+        "intel": 5,
+        "charisma": 5,
+        "feeling": 15
+      },
+      {
+        "nationality": "Russian",
+        "class": "Cossack",
+        "description": "Bold and fearless horsemen from the Russian steppes known for their daring raids.",
+        "hp": 25,
+        "force": 25,
+        "agility": 20,
+        "intel": 10,
+        "charisma": 10,
+        "feeling": 10
+      },
+      {
+        "nationality": "Persian",
+        "class": "Assassin",
+        "description": "Masters of stealth and subterfuge, skilled in eliminating high-value targets.",
+        "hp": 15,
+        "force": 10,
+        "agility": 30,
+        "intel": 25,
+        "charisma": 15,
+        "feeling": 10
+      },
+      {
+        "nationality": "Chinese",
+        "class": "shaolin-Monk",
+        "description": "Spiritual practitioners who combine martial arts with inner tranquility.",
+        "hp": 20,
+        "force": 20,
+        "agility": 20,
+        "intel": 20,
+        "charisma": 20,
+        "feeling": 20
+      },
+      {
+        "nationality": "Arabian",
+        "class": "Sorcerer",
+        "description": "Wielders of ancient arcane powers from the deserts of Arabia.",
+        "hp": 15,
+        "force": 10,
+        "agility": 15,
+        "intel": 30,
+        "charisma": 10,
+        "feeling": 20
+      },
+      {
+        "nationality": "Native American",
+        "class": "Shaman",
+        "description": "Mystical leaders of indigenous tribes, connected to the spirits of nature.",
+        "hp": 20,
+        "force": 15,
+        "agility": 15,
+        "intel": 25,
+        "charisma": 25,
+        "feeling": 15
+      },
+      {
+        "nationality": "East-African",
+        "class": "Masai",
+        "description": "Brave fighters from the African savannas, skilled in hunting and combat.",
+        "hp": 25,
+        "force": 15,
+        "agility": 20,
+        "intel": 10,
+        "charisma": 10,
+        "feeling": 20
+      },{
+        "nationality": "Persian",
+        "class": "Eunuch",
+        "description": "Castrated servants and advisers in the royal courts of Persia.",
+        "hp": 10,
+        "force": 5,
+        "agility": 5,
+        "intel": 30,
+        "charisma": 30,
+        "feeling": 20
+      },
+      {
+        "nationality": "Egyptian",
+        "class": "High-Priest",
+        "description": "Spiritual leaders of ancient Egypt, intermediaries between gods and mortals.",
+        "hp": 20,
+        "force": 15,
+        "agility": 15,
+        "intel": 30,
+        "charisma": 20,
+        "feeling": 10
+      },
+      {
+        "nationality": "Arabian",
+        "class": "Sultan",
+        "description": "Rulers of the Arabian Peninsula, presiding over opulent palaces and harems.",
+        "hp": 30,
+        "force": 20,
+        "agility": 10,
+        "intel": 25,
+        "charisma": 25,
+        "feeling": 15
+      },
+      {
+        "nationality": "Viking",
+        "class": "Shieldmaiden",
+        "description": "Fearless female warriors of the Viking age, skilled in battle and leadership.",
+        "hp": 25,
+        "force": 25,
+        "agility": 20,
+        "intel": 10,
+        "charisma": 10,
+        "feeling": 10
+      },
+      {
+        "nationality": "Aztec",
+        "class": "Eagle-Warrior",
+        "description": "Elite Aztec warriors who fought with honor, often sacrificing their enemies.",
+        "hp": 25,
+        "force": 30,
+        "agility": 15,
+        "intel": 10,
+        "charisma": 10,
+        "feeling": 10
+      },
+      {
+        "nationality": "Celtic",
+        "class": "Bard",
+        "description": "Storytellers and musicians of Celtic tribes, preserving ancient tales and songs.",
+        "hp": 15,
+        "force": 10,
+        "agility": 15,
+        "intel": 25,
+        "charisma": 25,
+        "feeling": 20
+      },
+      {
+        "nationality": "South-African",
+        "class": "Zulu-Warrior",
+        "description": "Brave warriors of the Zulu Kingdom, known for their tactical skills and bravery.",
+        "hp": 25,
+        "force": 30,
+        "agility": 20,
+        "intel": 10,
+        "charisma": 10,
+        "feeling": 10
+      },
+      {
+        "nationality": "Norse",
+        "class": "Valkyrie",
+        "description": "Divine maidens who select fallen warriors to join the ranks of the honored dead.",
+        "hp": 25,
+        "force": 20,
+        "agility": 20,
+        "intel": 15,
+        "charisma": 15,
+        "feeling": 15
+      },
+      {
+        "nationality": "Mayan",
+        "class": "Jaguar-Warrior",
+        "description": "Elite warriors of the Maya civilization, feared for their ferocity in battle.",
+        "hp": 25,
+        "force": 25,
+        "agility": 20,
+        "intel": 10,
+        "charisma": 10,
+        "feeling": 10
+      },
+      {
+        "nationality": "Roman",
+        "class": "Gladiator",
+        "description": "Fierce fighters who battled in the arenas of ancient Rome for glory and survival.",
+        "hp": 30,
+        "force": 30,
+        "agility": 20,
+        "intel": 10,
+        "charisma": 10,
+        "feeling": 10
+      },
+      {
+        "nationality": "Greek",
+        "class": "Philosopher",
+        "description": "Thinkers and scholars of ancient Greece, pondering the mysteries of existence.",
+        "hp": 15,
+        "force": 10,
+        "agility": 10,
+        "intel": 30,
+        "charisma": 25,
+        "feeling": 20
+      },
+      {
+        "nationality": "Viking",
+        "class": "Skald",
+        "description": "Norse poets and storytellers, weaving epic sagas of heroes and gods.",
+        "hp": 15,
+        "force": 10,
+        "agility": 15,
+        "intel": 25,
+        "charisma": 25,
+        "feeling": 20
+      }
+    ]
+  }
+  

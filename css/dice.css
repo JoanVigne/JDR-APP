@@ -1,0 +1,21 @@
+.dice-container {
+  width: 250px;
+  grid-template-columns: repeat(3, 1fr);
+  display: none;
+  margin: auto;
+  align-items: center;
+}
+.dice-container > * {
+  width: 100px;
+}
+.dice-container button {
+  border: none;
+  background-color: white;
+}
+.dice-container button span {
+  font-size: 40px;
+}
+.dice-container p {
+  font-size: 70px;
+  margin-top: 10px;
+}

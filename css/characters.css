@@ -1,0 +1,28 @@
+.character {
+  display: flex;
+}
+.character ul {
+  width: 300px;
+  text-align: center;
+}
+.character ul li {
+  padding: 5px;
+}
+.character img {
+  min-width: 200px;
+  max-width: 400px;
+  width: auto;
+  height: auto;
+}
+
+.character ul .nationality,
+.character ul .class {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.character ul .stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 25px;
+}
