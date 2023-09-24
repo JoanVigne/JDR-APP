@@ -2,6 +2,9 @@
   position: relative;
 }
 
+.close {
+}
+
 .modal {
   position: absolute;
   top: 60%;
@@ -12,16 +15,33 @@
   padding: 10px;
 }
 
+.settingDiceModal {
+}
+
 .titleAndClose {
   display: flex;
   justify-content: space-between;
 }
-.minMaxSettingContainer * {
-  display: flex;
-  justify-content: space-around;
+
+/* setting dice */
+
+.minMaxSettingContainer,
+.diceStyleContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  margin: 5px;
+  border: 1px white solid;
 }
 
-.minMaxSettingContainer button {
-  font-size: 25px;
-  margin: 3px;
+.minDice,
+.maxDice {
+  font-size: 40px;
+  width: 70px;
+}
+
+.diceStyle {
+  width: 100px;
+  height: auto;
+  background-color: white;
 }

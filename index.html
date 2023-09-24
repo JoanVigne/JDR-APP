@@ -43,30 +43,39 @@
             <h3>Settings</h3>
             <span class="close material-symbols-outlined"> close </span>
           </div>
+          <h4>Values of dice</h4>
           <div class="minMaxSettingContainer">
-            <div class="minContainer">
-              <h4>minimun result :</h4>
-              <span class="minDice"></span>
-              <div class="buttons">
-                <button>-</button>
-                <button>+</button>
-              </div>
-            </div>
-            <div class="maxContainer">
-              <h4>maximum result :</h4>
-              <span class="maxDice"></span>
-              <div class="buttons">
-                <button>-</button>
-                <button>+</button>
-              </div>
-            </div>
+            <label for="minDice">minimun result :</label>
+            <input
+              placeholder="0"
+              class="minDice"
+              type="number"
+              name=""
+              id="minDice"
+              max="999"
+              oninput="validateInput(this)"
+            />
+            <label for="maxDice">maximum result :</label>
+            <input
+              placeholder="100"
+              class="maxDice"
+              type="number"
+              name=""
+              id="maxDice"
+              max="999"
+              oninput="validateInput(this)"
+            />
+            <input type="button" value="Reset" />
+            <input type="submit" value="Validate those values" />
           </div>
+          <h4>dice style</h4>
+          <div class="diceStyleContainer"></div>
         </div>
       </div>
     </main>
     <footer>
       <div class="dice-container">
-        <img src="./assets/dice.png" />
+        <img src="./assets/dice/dice.png" />
         <p></p>
         <button>
           <span class="material-symbols-outlined"> settings </span>

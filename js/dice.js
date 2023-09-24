@@ -46,6 +46,40 @@ function displayResult() {
   resultContainer.textContent = `${randomNumber}`;
 }
 //* <-- --> *//
+
+/* Settings */
+const settingDiceModal = document.querySelector(".settingDiceModal");
+let minContainerDisplay = settingDiceModal.querySelector(".minDice");
+let maxContainerDisplay = settingDiceModal.querySelector(".maxDice");
 function settings() {
   console.log(" dice setting ");
+  console.log("min et max", min, max);
+  settingDiceModal.style.display =
+    settingDiceModal.style.display === "none" ? "block" : "none";
+  minContainerDisplay.innerHTML = min;
+  maxContainerDisplay.innerHTML = max;
+}
+
+function validateInput(input) {
+  if (input.value > 1000) {
+    input.value = 999;
+  }
+}
+
+const alltheDice = ["./assets/dice/dice.png", "./assets/dice/red-dice.png"];
+const diceStyleContainer = settingDiceModal.querySelector(
+  ".diceStyleContainer"
+);
+
+alltheDice.forEach((dice) => {
+  let thisDice = document.createElement("img");
+  thisDice.setAttribute("class", "diceStyle");
+  thisDice.addEventListener("click", () => changeDice(dice));
+  thisDice.src = dice;
+  diceStyleContainer.append(thisDice);
+});
+
+function changeDice(dice) {
+  diceImage.src = dice;
+  console.log("dedans");
 }
