@@ -1,6 +1,5 @@
-const startButton = document
-  .querySelector("#startButton")
-  .addEventListener("click", start);
+const showCharacter = document.querySelector("#showCharacter");
+showCharacter.addEventListener("click", start);
 
 function isAGameRecored() {
   const recordGame = localStorage.getItem("recordGame");
@@ -12,4 +11,12 @@ function isAGameRecored() {
 
 function start() {
   displayCharacters();
+  showCharacter.removeEventListener("click", start);
+  showCharacter.textContent = "Hide characters";
+
+  showCharacter.addEventListener("click", () => {
+    hideCharacters();
+    showCharacter.textContent = "Show characters";
+    showCharacter.addEventListener("click", start);
+  });
 }

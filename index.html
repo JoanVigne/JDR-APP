@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
 
     <link rel="stylesheet" href="./css/characters.css" />
     <link rel="stylesheet" href="./css/dice.css " />
@@ -20,18 +22,51 @@
     <header>
       <h1 class="">Role Play Support</h1>
       <h2 class="location">Profile, statistics and dice.</h2>
-      <button id="startButton">start ?</button>
     </header>
-    <div class="listeDesPersonnage">
+    <nav>
+      <ul>
+        <li id="showCharacter">Show characters</li>
+        <li>Create a character</li>
+        <li id="showDice">Show dice</li>
+      </ul>
+    </nav>
+    <div class="characterList">
       <ul></ul>
     </div>
     <main>
       <section class="ContainerPlayerProfile"></section>
       <section class="containerNewStats"></section>
+
+      <div class="modals">
+        <div class="modal settingDiceModal">
+          <div class="titleAndClose">
+            <h3>Settings</h3>
+            <span class="close material-symbols-outlined"> close </span>
+          </div>
+          <div class="minMaxSettingContainer">
+            <div class="minContainer">
+              <h4>minimun result :</h4>
+              <span class="minDice"></span>
+              <div class="buttons">
+                <button>-</button>
+                <button>+</button>
+              </div>
+            </div>
+            <div class="maxContainer">
+              <h4>maximum result :</h4>
+              <span class="maxDice"></span>
+              <div class="buttons">
+                <button>-</button>
+                <button>+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="dice-container">
-        <img />
+        <img src="./assets/dice.png" />
         <p></p>
         <button>
           <span class="material-symbols-outlined"> settings </span>
@@ -40,6 +75,7 @@
     </footer>
   </body>
   <script src="./js/main.js"></script>
+  <script src="./js/modal.js"></script>
   <script src="./js/characters.js"></script>
   <script src="./js/stats.js"></script>
   <script src="./js/dice.js"></script>

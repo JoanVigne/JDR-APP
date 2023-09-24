@@ -1,0 +1,27 @@
+.modals {
+  position: relative;
+}
+
+.modal {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.titleAndClose {
+  display: flex;
+  justify-content: space-between;
+}
+.minMaxSettingContainer * {
+  display: flex;
+  justify-content: space-around;
+}
+
+.minMaxSettingContainer button {
+  font-size: 25px;
+  margin: 3px;
+}

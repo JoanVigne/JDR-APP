@@ -1,3 +1,8 @@
+body {
+  height: 100vh;
+  overflow: scroll;
+}
+
 header {
   height: 20vh;
   background-color: black;
@@ -5,11 +10,21 @@ header {
   text-align: center;
 }
 
+/*  FONT SIZE */
 h1 {
   font-size: 40px;
 }
 h2 {
   font-size: 35px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 25px;
+}
+li {
+  font-size: 25px;
 }
 
 footer {

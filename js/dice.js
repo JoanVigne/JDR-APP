@@ -3,18 +3,30 @@ const diceImage = diceContainer.querySelector("img");
 const resultContainer = diceContainer.querySelector("p");
 const diceSettings = diceContainer.querySelector("button");
 
+// show and hide the dice
+const showDice = document.querySelector("#showDice");
+showDice.addEventListener("click", () => {
+  diceContainer.style.display =
+    diceContainer.style.display === "grid" ? "none" : displayDice();
+});
+
+// Display functions
 function displayDice() {
   diceContainer.style.display = "grid";
-  diceImage.src = "./assets/dice.png";
   diceImage.addEventListener("click", rollDice);
   diceSettings.addEventListener("click", settings);
 }
+function hideDice() {
+  diceContainer.style.display = "none";
+}
+//* <-- --> *//
 
+// rolling dice functions
 function rollDice() {
   displayRollingNumbers();
 }
-const min = 0;
-const max = 100;
+let min = 0;
+let max = 100;
 function getRandomNumber() {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -33,7 +45,7 @@ function displayResult() {
   const randomNumber = getRandomNumber();
   resultContainer.textContent = `${randomNumber}`;
 }
-
+//* <-- --> *//
 function settings() {
   console.log(" dice setting ");
 }
